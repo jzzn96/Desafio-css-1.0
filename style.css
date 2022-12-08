@@ -1,0 +1,168 @@
+* {
+    font-family: 'oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    color: #5D5D7D;
+
+
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.sizeBox {
+    margin-top: 15%;
+    display: inline-block;
+    width: 60%;
+    padding-left: 136px;
+}
+
+.boxSize {
+    display: inline-block;
+    background-color: rgba(148, 153, 234, 0.0979959);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+}
+
+.linkTop {
+    margin-left: 41px;
+    cursor: pointer;
+}
+
+img {
+    position: relative;
+    top: 15%;
+    right: 130px;
+}
+
+h1 {
+    width: 368px;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+p {
+    width: 540px;
+    font-size: 28px;
+    line-height: 48px;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    margin: 15px 0;
+
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    color: #FFFFFF;
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+
+header {
+    margin: 24px 0 0 57px;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+.linkTop:hover {
+    opacity: 0.8;
+}
+
+.linkTop:active {
+    opacity: 0.5;
+}
+
+a:nth-child(2) {
+    opacity: 0.4;
+}
+
+@media screen and (max-width:900px) {
+    .sizeBox {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 50%;
+    }
+
+    .boxSize {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+
+    }
+
+    img {
+        position: static;
+        max-width: 90%;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0px 50px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        width: auto;
+        margin: 15px 40px;
+    }
+
+    button {
+        margin: 0 auto;
+        display: block;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .boxSize {
+        width: auto;
+    }
+
+    img {
+        max-width: 70%;
+        position: static;
+        margin: 0 45px;
+    }
+
+    button {
+        width: 70%;
+    }
+
+    h1 {
+        margin: 25px auto;
+    }
+
+}
